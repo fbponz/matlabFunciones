@@ -1,6 +1,6 @@
 # matlabFunciones
 
-##Contents
+## Contenidos
 
 -**CalcularPicoCaida.m**-> Detector de flanco de bajada hasta flanco de subida.
 
