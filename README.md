@@ -1,19 +1,27 @@
 # matlabFunciones
 
-## Contenidos
+Here I share some of my  functions, which I use in my diary work.
 
--**CalcularPicoCaida.m**-> Detector de flanco de bajada hasta flanco de subida.
+## Contents:
 
--**Cordic.m** -> Descomposición seno y coseno mediante utilización algoritmo cordic.
+-**RemoveNaN.m** -> Remove from array Any NaN, and assign a like a new value the anterior value.
 
--**media1d20.m** -> Función obtencion de una media cada 20 valores.
+### Robotics:
 
--**mediaAcumulada20.m** -> Función obtencion de una media en cada valor, el calculo se hace con 20 de los valores ultimos.
+-**modelDifferential.m** -> Calculate Odometry like function of velocity wheels (Robot with topology Differential).
 
--**modelDifferential.m** -> Calculo de odometria en función de las velocidades de las ruedas (Robot Diffrencial).
+-**odometry.m** -> Calculate Odometry using lineal Velocity of the robot and Yaw.
 
--**odometry.m** -> Calculo de odometria en función de la velocidad lineal y el angulo de giro (Yaw).
+### Signals
 
--**pendiente.m** -> Calculo de pendiente, entre dos puntos. Antes de salir de la función se guarda el valor actual para la proxima iteración.
+-**Average1of20.m** -> Function to obtain an average each 20 values. 
 
--**RemoveNaN.m** -> reemplazamos en un array las celdas con valor NaN y le asignamos el valor anterior.
+-**AverageAccumulate20.m** -> Function to obtain an average in each value, taking the last 19 values. To do it.
+
+-**CordicAlgorithm.m** -> Function to descompose in sinus and cosinus using Cordic Algorithm.
+
+-**DetectFlankSignal.m**-> Function to Detect the down flank of until a raising flank in a signal.
+
+-**InclinationOfSignal.m** -> Function to Calculate Inclination between two points. In Each iteration the function save a value to use in the next iteration. 
+
+
