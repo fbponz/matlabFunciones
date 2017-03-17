@@ -1,6 +1,14 @@
+%
+%  odometry.m
+%  matlabFunctions/Signals
+%
+%  Created by Francisco de Borja Ponz Camps on 10/12/16.
+%  Copyright 2016 fbponz. Released under MIT license.
+%  NorthEnd - 2016.
+%
 %Este Script se encarga de convertir una odometria y representarla en X e
 %Y.
-% fbponz MIT - 10/12/16.
+
 VL=VL1/1000;
 Theta=Theta1/1000;
 

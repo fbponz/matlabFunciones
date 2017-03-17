@@ -1,7 +1,15 @@
+%
+%  DetectFlankSignal.m
+%  matlabFunctions/Signals
+%
+%  Created by Francisco de Borja Ponz Camps on 3/12/16.
+%  Copyright 2016 fbponz. Released under MIT license.
+%  NorthEnd - 2016.
+%
 % Esta funcion detecta el flanco de bajada y se cambia la salida hasta que
 % llega un flanco de subida. 
-% fbponz license MIT - 3/12/16.
-function [ output_args ] = CalcularPicoCaida( input_args )
+
+function [ output_args ] = DetectFlankSignal( input_args )
     ntotal = size(input_args);
     valorSalida= 0
     max = 600;

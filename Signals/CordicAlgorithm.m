@@ -1,7 +1,14 @@
 %
+%  CordicAlgorithm.m
+%  matlabFunctions/Signals
+%
+%  Created by Francisco de Borja Ponz Camps on 3/12/14.
+%  Copyright 2014 fbponz. Released under MIT license.
+%  NorthEnd - 2014.
+%
+%
 %Esta funcion se encargara de calcular en funcion de un angulo(rad), su
 %descomposicion en senos y cosenos "mediante la utilizacion del algoritmo cordic".
-% fbponz MIT - 3/12/14.
 
 %introducimos el angulo en rad.
 function Cordic(angulo,iteraciones)

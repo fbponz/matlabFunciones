@@ -1,8 +1,15 @@
+%
+%  InclinationOfSignal.m
+%  matlabFunctions/Signals
+%
+%  Created by Francisco de Borja Ponz Camps on 10/12/16.
+%  Copyright 2016 fbponz. Released under MIT license.
+%  NorthEnd - 2016.
+%
 %Esta funcion se encargara de calcular la pendiente entre dos puntos. El
 %planteamiento es el siguiente e la ejecucion se guarda el valor para la
 %proxima iteracion.
-% fbponz MIT - 10/12/16.
-function [ output_args ] = pendiente( input_args )
+function [ output_args ] = InclinationOfSignal( input_args )
 
     ntotal = size(input_args);
     

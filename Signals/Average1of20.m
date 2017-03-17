@@ -1,6 +1,14 @@
+%
+%  Average1of20.m
+%  matlabFunctions/Signals
+%
+%  Created by Francisco de Borja Ponz Camps on 10/12/16.
+%  Copyright 2016 fbponz. Released under MIT license.
+%  NorthEnd - 2016.
+%
 %Esta funcion se encargara de calcular una salida de media cada 20 valores.
-% fbponz MIT - 10/12/16.
-function [ output_args ] = media1d20( input_args )
+
+function [ output_args ] = Average1of20( input_args )
 
 ntotal = size(input_args);
 

@@ -1,6 +1,14 @@
+%
+%  AverageAccumulate20.m
+%  matlabFunctions/Signals
+%
+%  Created by Francisco de Borja Ponz Camps on 11/12/16.
+%  Copyright 2016 fbponz. Released under MIT license.
+%  NorthEnd - 2016.
+%
 %Esta funcion se encargara de calcular una salida de media cada 20 valores.
-% fbponz MIT - 11/12/16.
-function [ output_args ] = mediaAcumulada20( input_args )
+
+function [ output_args ] = AverageAccumulate20( input_args )
 
 ntotal = size(input_args);
 

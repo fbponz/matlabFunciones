@@ -1,6 +1,13 @@
+%
+%  modelDifferential.m
+%  matlabFunctions/Signals
+%
+%  Created by Francisco de Borja Ponz Camps on 10/12/16.
+%  Copyright 2016 fbponz. Released under MIT license.
+%  NorthEnd - 2016.
+%
 %Este Script se encarga de calcular una odometria desde unas velocidades 
 %y representarla en X e Y.
-% fbponz MIT - 10/12/16.
 VelL=1:1:10;
 VelR=1:1:10;
 
