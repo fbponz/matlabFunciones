@@ -24,4 +24,8 @@ Here I share some of my  functions, which I use in my diary work.
 
 -**InclinationOfSignal.m** -> Function to Calculate Inclination between two points. In Each iteration the function save a value to use in the next iteration. 
 
+Kind Regards, Fbponz.
+
+**Contact:** e-Mail: fbponz@gmail.com
+
 
